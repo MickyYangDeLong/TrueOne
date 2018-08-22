@@ -45,7 +45,7 @@ public class Yard extends Frame {
         this.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
-                System.exit(0);
+               // System.exit(0);
             }
         });
         this.setVisible(true);

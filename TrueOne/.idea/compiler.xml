@@ -9,6 +9,8 @@
         <module name="TrueOne" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="9" />
+    <bytecodeTargetLevel target="9">
+      <module name="Snakes" target="" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -70,6 +70,10 @@
 
 </head>
 <body style="background-color: aquamarine">
+<script>
+
+
+</script>
 <nav>
     <div class="top">
         <li><a href="selfmanager.jsp">本机管理</a></li>
@@ -77,7 +81,9 @@
         <li><a href="selfmanager.jsp">那年今日</a></li>
         <li><a href="selfmanager.jsp">诗词歌赋</a></li>
         <li><a href="selfmanager.jsp">我爱功夫</a></li>
-        <li><a hre="selfmanager.jsp">动物天使</a></li>
+        <li><a href="selfmanager.jsp">动物天使</a></li>
+        <li><a href="WebSnake.html">web贪吃蛇</a></li>
+        <li><a href="javascript:;" onclick="javascript:location.href='/servlet/ServletDemo4Snake'"> 本机版贪吃蛇</a></li>
     </div>
 </nav>
 </body>

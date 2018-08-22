@@ -7,12 +7,22 @@
 
   <servlet>
     <servlet-name>ServletDemo</servlet-name>
-    <servlet-class>serverlet.ServletDemo</servlet-class>
+    <servlet-class>servlet.ServletDemo</servlet-class>
   </servlet>
   
   <servlet-mapping>
     <servlet-name>ServletDemo</servlet-name>
     <url-pattern>/servlet/ServletDemo</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ServletDemo4Snake</servlet-name>
+    <servlet-class>servlet.ServletDemo4Snake</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ServletDemo4Snake</servlet-name>
+    <url-pattern>/servlet/ServletDemo4Snake</url-pattern>
   </servlet-mapping>
 
   <welcome-file-list>
