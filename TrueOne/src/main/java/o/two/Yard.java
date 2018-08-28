@@ -45,7 +45,7 @@ public class Yard extends Frame {
         this.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
-               // System.exit(0);
+                dispose();
             }
         });
         this.setVisible(true);
@@ -152,9 +152,7 @@ public class Yard extends Frame {
         startGame();
     }
 
-    static final Yard yard = new Yard();
-
     private static void startGame() {
-        yard.launch();
+        new Yard().launch();
     }
 }

@@ -24,16 +24,29 @@
       <file leaf-file-name="Yard.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/o/two/Yard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+            <state relative-caret-position="241">
+              <caret line="154" selection-start-line="154" selection-end-line="154" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#854#855#0" expanded="true" />
                 <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#1142#1298#0" expanded="true" />
-                <element signature="e#1297#1298#0" expanded="true" />
+                <element signature="e#1142#1291#0" expanded="true" />
+                <element signature="e#1290#1291#0" expanded="true" />
                 <element signature="e#4082#4083#0" expanded="true" />
                 <element signature="e#4109#4110#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Window.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.desktop/java/awt/Window.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="1135" column="68" lean-forward="true" selection-start-line="1135" selection-start-column="68" selection-end-line="1135" selection-end-column="68" />
+              <folding>
+                <element signature="e#40466#40467#0" expanded="true" />
+                <element signature="e#40493#40494#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,7 +55,7 @@
       <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1950">
+            <state relative-caret-position="26">
               <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
             </state>
           </provider>
@@ -72,8 +85,8 @@
       <file leaf-file-name="ServletDemo4Snake.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/servlet/ServletDemo4Snake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+            <state relative-caret-position="261">
+              <caret line="49" column="48" lean-forward="true" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,18 +121,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Egg.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/o/two/Egg.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Dir.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/o/two/Dir.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -147,6 +148,7 @@
       <find>startGame</find>
       <find>update</find>
       <find>stop</find>
+      <find>exit</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -257,6 +259,51 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="o" type="462c0819:PsiDirectoryNode" />
               <item name="two" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrueOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrueOne" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrueOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrueOne" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrueOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="TrueOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 9 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="TrueOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 9 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.desktop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrueOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 9 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.desktop" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrueOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 9 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.desktop" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="awt" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -515,12 +562,12 @@
       <workItem from="1534084651607" duration="7616000" />
       <workItem from="1534861756087" duration="614000" />
       <workItem from="1534864804523" duration="4036000" />
-      <workItem from="1534953243474" duration="347000" />
+      <workItem from="1534953243474" duration="1916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50717000" />
+    <option name="totallyTimeSpent" value="52286000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -554,9 +601,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32986626" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47399703" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26300147" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32986626" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17527933" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17527933" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -672,7 +719,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/o/two/Yard.java</url>
-          <line>157</line>
+          <line>156</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
@@ -919,13 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.desktop/java/awt/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="922" column="16" selection-start-line="922" selection-start-column="16" selection-end-line="922" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/o/two/Snake.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2704">
@@ -1005,13 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlet/ServletDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -1026,10 +1059,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.desktop/java/awt/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="1135" column="68" lean-forward="true" selection-start-line="1135" selection-start-column="68" selection-end-line="1135" selection-end-column="68" />
+          <folding>
+            <element signature="e#40466#40467#0" expanded="true" />
+            <element signature="e#40493#40494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlet/ServletDemo4Snake.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+        <state relative-caret-position="261">
+          <caret line="49" column="48" lean-forward="true" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1038,14 +1089,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/o/two/Yard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        <state relative-caret-position="241">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#854#855#0" expanded="true" />
             <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#1142#1298#0" expanded="true" />
-            <element signature="e#1297#1298#0" expanded="true" />
+            <element signature="e#1142#1291#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
             <element signature="e#4082#4083#0" expanded="true" />
             <element signature="e#4109#4110#0" expanded="true" />
           </folding>
