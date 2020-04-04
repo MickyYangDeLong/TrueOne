@@ -69,13 +69,14 @@
     </style>
 
 </head>
-<body style="background-color: aquamarine">
+<body style="background-color: aquamarine" style="background-image:url(./image/7d7d074f-fee2-11e8-a603-44032cbabfd9.jpg)">
 <script>
 
 
 </script>
 <nav>
     <div class="top">
+        <li><a href="mydiary.jsp">我的日记</a></li>
         <li><a href="selfmanager.jsp">本机管理</a></li>
         <li><a href="selfmanager.jsp">家族树</a></li>
         <li><a href="selfmanager.jsp">那年今日</a></li>

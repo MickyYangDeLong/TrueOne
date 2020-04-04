@@ -8,7 +8,7 @@
 
     </script>
 </head>
-<body>
+<body style="background-image:url(./image/7d7d074f-fee2-11e8-a603-44032cbabfd9.jpg)">
 <h1 style="text-align: center ; color: blueviolet; background-color: darkkhaki">家族树</h1>
 <form action="/servlet/ServletDemo" method="post">
     用户名：<input type="text" title="请输入用户名" name="user" size="20px"><br>

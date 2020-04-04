@@ -25,6 +25,16 @@
     <url-pattern>/servlet/ServletDemo4Snake</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>MyDiary</servlet-name>
+    <servlet-class>servlet.MyDiary</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>MyDiary</servlet-name>
+    <url-pattern>/servlet/MyDiary</url-pattern>
+  </servlet-mapping>
+
   <welcome-file-list>
     <welcome-file>login.html</welcome-file>
     <welcome-file>login.jsp</welcome-file>

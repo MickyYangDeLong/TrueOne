@@ -1,5 +1,8 @@
 package servlet;
 
+import dto.Student;
+import service.StudentServiceImp;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -24,7 +27,13 @@ public class ServletDemo extends HttpServlet {
             throws ServletException, IOException {
         String userName = (String) request.getParameter("user");
         String passWord = (String) request.getParameter("pswd");
-        if (Objects.equals(userName,"micky") && Objects.equals(passWord,"123456")){
+        if (Objects.isNull(userName)){
+            request.setAttribute("message", "用户名或者密码错误，请重新输入！");
+            request.getRequestDispatcher("/login.jsp").forward(request, response);
+        }
+
+        Student student = new StudentServiceImp().query(userName);
+        if (Objects.nonNull(student) && Objects.equals(passWord,student.getPassWord())){
             response.sendRedirect("/main.jsp");
         }else {
             request.setAttribute("message", "用户名或者密码错误，请重新输入！");

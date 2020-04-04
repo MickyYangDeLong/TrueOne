@@ -19,7 +19,7 @@ public class DbManager {
             System.out.println("是否成功连接pg数据库" + Objects.isNull(connection));
             statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(sql);
-            if (Objects.isNull(resultSet) || resultList.isEmpty()){
+            if (Objects.isNull(resultSet)){
                 return  resultList;
             }
 
@@ -34,7 +34,7 @@ public class DbManager {
                 String firstChar = name.substring(0,1);
                 String methodName = "set".concat(name.replaceFirst(firstChar,firstChar.toUpperCase()));
                 fieldNameMap.put(methodName,f);
-                fieldMethodNameList.add("set".concat(methodName));
+                fieldMethodNameList.add(methodName);
             });
 
             while (resultSet.next()) {//取出列值
@@ -62,7 +62,7 @@ public class DbManager {
                 resultList.add(obj);
             }
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         } finally {
             closeConnection(connection, statement);
         }
