@@ -4,9 +4,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import service.impl.JackFamilyTree;
+import service.interf.FamilyTreeRoot;
 
 public class TestIoc {
-    private static final Logger logger = LoggerFactory.getLogger(Test.class);
+  /*  private static final Logger logger = LoggerFactory.getLogger(Test.class);
     public static void main(String[] args) {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("bean.xml");
         //  FamilyTreeRoot p = ctx.getBean("chinese", MickyFamilyTree.class);
@@ -23,5 +25,5 @@ public class TestIoc {
         p.dead();
         logger.debug("============");
         logger.debug(p.description());
-    }
+    }*/
 }
