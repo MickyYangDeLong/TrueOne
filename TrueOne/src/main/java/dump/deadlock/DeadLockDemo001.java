@@ -1,35 +1,34 @@
 package dump.deadlock;
 
-import java.util.concurrent.*;
+import java.util.concurrent.TimeUnit;
 
-public class DeadLockDemo {
-
+public class DeadLockDemo001 {
     private Object o1 = new Object();
     private Object o2 = new Object();
     public static void main(String[] args) {
-        DeadLockDemo testDeadLock =new DeadLockDemo();
-        CompletableFuture.runAsync(()->{
+        DeadLockDemo001 testDeadLock =new DeadLockDemo001();
+        new Thread(()->{
             Thread.currentThread().setName("--------------11111111111-------------");
             try {
                 testDeadLock.m1();
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        });
+        }).start();
 
-        CompletableFuture.runAsync(()->{
+        new Thread(()->{
             Thread.currentThread().setName("--------------22222222222----");
             try {
                 testDeadLock.n1();
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        });
+        }).start();
     }
    private void m1() throws InterruptedException {
         synchronized (o1){
             System.out.println(getThreadName()+"-- m1 start sleep o1!");
-            TimeUnit.SECONDS.sleep(5);
+            TimeUnit.SECONDS.sleep(10);
             n1();
             System.out.println(getThreadName()+"-- m1 end sleep o1!");
         }
@@ -38,7 +37,7 @@ public class DeadLockDemo {
     private void n1() throws InterruptedException {
         synchronized (o2){
             System.out.println(getThreadName()+"-- n1 start sleep o2!");
-            TimeUnit.SECONDS.sleep(5);
+            TimeUnit.SECONDS.sleep(10);
             m1();
             System.out.println(getThreadName()+"-- n1 end sleep o2!");
         }
