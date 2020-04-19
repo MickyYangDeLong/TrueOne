@@ -84,7 +84,14 @@
         <li><a href="selfmanager.jsp">我爱功夫</a></li>
         <li><a href="selfmanager.jsp">动物天使</a></li>
         <li><a href="WebSnake.html">web贪吃蛇</a></li>
-        <li><a href="javascript:;" onclick="javascript:location.href='/servlet/ServletDemo4Snake'"> 本机版贪吃蛇</a></li>
+       <%-- <li><a href="javascript:;" onclick="javascript:location.href='/servlet/ServletDemo4Snake'"> 本机版贪吃蛇</a></li>--%>
+        <li><a href="javascript:;" onclick="javascript:location.href='/DisplayHeader'"> httphead</a></li>
+        <li><a href="javascript:;" onclick="javascript:location.href='/TomcatTest/Refresh'">Refresh</a></li>
+        <li><a href="cook.html">form</a></li>
+        <li><a href="javascript:;" onclick="javascript:location.href='/ReadCookies'">ReadCookies</a></li>
+        <li><a href="javascript:;" onclick="javascript:location.href='/DeleteCookies'">DeleteCookies</a></li>
+        <li><a href="javascript:;" onclick="javascript:location.href='/SessionTrack'">SessionTrack</a></li>
+        <li><a href="upload.jsp">upload</a></li>
     </div>
 </nav>
 </body>
