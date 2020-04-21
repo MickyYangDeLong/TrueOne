@@ -10,7 +10,7 @@
     <script type="text/javascript">
         function  init(){
                      $.ajax({
-                            url: "http://localhost:8080/servlet/MyDiary.action",
+                            url: "http://localhost:8080/DiaryServlet.do",
                             type: "get",
                             dataType: "json",
                              success: function(data){

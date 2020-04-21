@@ -91,6 +91,7 @@
         <li><a href="javascript:;" onclick="javascript:location.href='/ReadCookies'">ReadCookies</a></li>
         <li><a href="javascript:;" onclick="javascript:location.href='/DeleteCookies'">DeleteCookies</a></li>
         <li><a href="javascript:;" onclick="javascript:location.href='/SessionTrack'">SessionTrack</a></li>
+        <li><a href="javascript:;" onclick="javascript:location.href='/DiaryServlet.do'">DiaryServlet.do</a></li>
         <li><a href="upload.jsp">upload</a></li>
     </div>
 </nav>
