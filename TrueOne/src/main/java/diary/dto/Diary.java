@@ -1,5 +1,6 @@
 package diary.dto;
 
+import lombok.Builder;
 import lombok.Data;
 import org.apache.ibatis.type.Alias;
 

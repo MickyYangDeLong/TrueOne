@@ -13,34 +13,11 @@
       <param-value>菜鸟教程</param-value>
     </init-param>
   </filter>
-<!--  <filter>
-    <filter-name>AuthenFilter</filter-name>
-    <filter-class>com.runoob.test.AuthenFilter</filter-class>
-    <init-param>
-      <param-name>test-param</param-name>
-      <param-value>Initialization Paramter</param-value>
-    </init-param>
-  </filter>-->
 
   <filter-mapping>
     <filter-name>LogFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
-<!--
-  <filter-mapping>
-    <filter-name>AuthenFilter</filter-name>
-    <url-pattern>/*</url-pattern>
-  </filter-mapping>-->
-
-<!--  <servlet>
-    <servlet-name>ServletDemo</servlet-name>
-    <servlet-class>servlet.ServletDemo</servlet-class>
-  </servlet>
-  
-  <servlet-mapping>
-    <servlet-name>ServletDemo</servlet-name>
-    <url-pattern>/servlet/ServletDemo</url-pattern>
-  </servlet-mapping>-->
 
   <servlet>
     <servlet-name>ServletDemo4Snake</servlet-name>
@@ -51,16 +28,6 @@
     <servlet-name>ServletDemo4Snake</servlet-name>
     <url-pattern>/servlet/ServletDemo4Snake</url-pattern>
   </servlet-mapping>
-<!--
-  <servlet>
-    <servlet-name>MyDiary</servlet-name>
-    <servlet-class>servlet.MyDiary</servlet-class>
-  </servlet>
-
-  <servlet-mapping>
-    <servlet-name>MyDiary</servlet-name>
-    <url-pattern>/servlet/MyDiary</url-pattern>
-  </servlet-mapping>-->
 
   <session-config>
     <session-timeout>15</session-timeout>

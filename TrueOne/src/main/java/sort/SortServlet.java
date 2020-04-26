@@ -1,4 +1,4 @@
-package diary.action;
+package sort;
 
 import com.google.gson.Gson;
 import diary.dao.DiaryMapper;
@@ -18,15 +18,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.Reader;
-import java.sql.Timestamp;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-@WebServlet("/DiaryServlet.do")
-public class DiaryServlet extends HttpServlet {
-    Logger logger = LoggerFactory.getLogger(DiaryServlet.class);
+@WebServlet("/SortServlet.do")
+public class SortServlet extends HttpServlet {
+    Logger logger = LoggerFactory.getLogger(SortServlet.class);
     static Gson gson = new Gson();
 
     // 处理 GET 方法请求的方法

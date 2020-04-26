@@ -77,7 +77,8 @@
 <nav>
     <div class="top">
         <li><a href="mydiary.jsp">我的日记</a></li>
-        <li><a href="selfmanager.jsp">本机管理</a></li>
+        <li><a href="mydiary2.jsp">本机管理</a></li>
+        <li><a href="mydiary3.jsp">100万数据排序</a></li>
         <li><a href="selfmanager.jsp">家族树</a></li>
         <li><a href="selfmanager.jsp">那年今日</a></li>
         <li><a href="selfmanager.jsp">诗词歌赋</a></li>

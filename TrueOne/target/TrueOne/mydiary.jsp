@@ -9,24 +9,27 @@
     <title>Head</title>
     <script type="text/javascript">
         function  init(){
+                     var person = {username: "小李", password: "123"};
                      $.ajax({
-                            url: "http://localhost:8080/DiaryServlet.do",
-                            type: "get",
+                            url: "http://localhost:80/DiaryServlet.do",
+                            type: "post",
                             dataType: "json",
-                             success: function(data){
-                                showData(data);
-                             },
-                         error: function(msg){
-                                 alert("ajax连接异常："+msg);
-                            }
+                            data: person,
+                             success: function(msg){
+                                     alert(msg);
+                                    showData(msg);
+                                 },
+                             error: function(msg){
+                                     alert("ajax连接异常："+msg);
+                                }
                     });
                  }
 
-         function showData(data) {
+         function showData(msg) {
                       var str = "";//定义用于拼接的字符串
-                      for (var i = 0; i < data.length; i++) {
+                      for (var i = 0; i < msg.length; i++) {
                               //拼接表格的行和列
-                              str = "<tr><td>" +"O"+ "</td><td>" + data[i].title + "</td><td>" + data[i].context + "</td><td>" + data[i].date + "</td></tr>";
+                              str = "<tr><td>" +msg[i].id+ "</td><td>" + msg[i].content+ "</td><td>" + msg[i].topic + "</td><td>" + msg[i].authorName + "</td></tr>";
                               //追加到table中
                               $("#tab").append(str);         }
                   }
