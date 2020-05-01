@@ -1,4 +1,4 @@
-package sort;
+package algorithm.sort;
 
 import com.google.gson.Gson;
 import diary.dao.DiaryMapper;
