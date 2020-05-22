@@ -1,4 +1,4 @@
-package algorithm;
+package study.algorithm;
 
 /**
  * Twitter的分布式自增ID雪花算法snowflake
