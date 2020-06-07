@@ -1,6 +1,7 @@
 package servlet;
 
 import dto.Student;
+import lombok.extern.slf4j.Slf4j;
 import service.StudentServiceImp;
 
 import javax.servlet.ServletException;
@@ -13,6 +14,7 @@ import java.io.PrintWriter;
 import java.util.Objects;
 
 @WebServlet(urlPatterns = {"/servlet/ServletDemo"})
+@Slf4j
 public class ServletDemo extends HttpServlet {
 
     /**
