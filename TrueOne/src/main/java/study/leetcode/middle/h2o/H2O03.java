@@ -1,17 +1,18 @@
 package study.leetcode.middle.h2o;
 
-import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.Semaphore;
 
 /**
  * @Auther Micky
  * @Date 2020-06-14 20:03
  */
-class H2O {
+class H2O03 {
 
-    public H2O() {
+    public H2O03() {
 
     }
+
+    sychronized
 
     Semaphore semaphore01 = new Semaphore(0);
     Semaphore semaphore02 = new Semaphore(2);
