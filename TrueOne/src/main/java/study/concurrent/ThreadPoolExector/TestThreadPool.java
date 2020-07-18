@@ -1,7 +1,6 @@
 package study.concurrent.ThreadPoolExector;
 
 import org.junit.Test;
-import sun.nio.ch.ThreadPool;
 
 import java.util.concurrent.*;
 

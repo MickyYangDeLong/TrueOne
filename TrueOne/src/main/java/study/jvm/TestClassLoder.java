@@ -1,7 +1,7 @@
 package study.jvm;
 
-import sun.misc.Launcher;
-import sun.util.calendar.ZoneInfo;
+/*import sun.misc.Launcher;*/
+/*import sun.util.calendar.ZoneInfo;*/
 
 public class TestClassLoder {
     public static void main(String[] args) {
@@ -11,8 +11,8 @@ public class TestClassLoder {
         System.out.println(Integer.class.getClassLoader());
         TestClassLoder test = new TestClassLoder();
         System.out.println(test.getClass().getClassLoader());
-        System.out.println(Launcher.class.getClassLoader());
-        System.out.println(ZoneInfo.class.getClassLoader());
+        //System.out.println(Launcher.class.getClassLoader());
+        //System.out.println(ZoneInfo.class.getClassLoader());
         System.out.println(ClassLoader.getSystemClassLoader());
         System.out.println(ClassLoader.getSystemClassLoader().getParent());
         System.out.println(ClassLoader.getSystemClassLoader().getParent().getParent());

@@ -11,7 +11,7 @@ class H2O04 {
     public H2O04() {
 
     }
- lock
+ //lock
 
     Semaphore semaphore01 = new Semaphore(0);
     Semaphore semaphore02 = new Semaphore(2);

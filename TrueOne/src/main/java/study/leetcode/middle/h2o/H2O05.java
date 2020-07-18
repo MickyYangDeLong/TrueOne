@@ -13,7 +13,7 @@ class H2O05 {
 
     }
 
-    AtomicInteger
+   // AtomicInteger
 
     Semaphore semaphore01 = new Semaphore(0);
     Semaphore semaphore02 = new Semaphore(2);

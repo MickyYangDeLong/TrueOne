@@ -13,7 +13,7 @@ class H2O06 {
     }
 
 
-    aqs
+    //aqs TOO
 
     Semaphore semaphore01 = new Semaphore(0);
     Semaphore semaphore02 = new Semaphore(2);

@@ -12,7 +12,7 @@ class H2O03 {
 
     }
 
-    sychronized
+    //sychronized
 
     Semaphore semaphore01 = new Semaphore(0);
     Semaphore semaphore02 = new Semaphore(2);
