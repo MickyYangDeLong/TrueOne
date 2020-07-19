@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/study/leetcode/middle/two/num/add/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="280">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding>
                 <element signature="e#2337#2338#0" expanded="true" />
                 <element signature="e#2368#2369#0" expanded="true" />
@@ -38,18 +38,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/study/leetcode/middle/two/num/add/SolutionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="427">
+              <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Solution001.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/study/leetcode/middle/two/num/add/Solution001.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1404" />
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="Serializable.java" pinned="false" current-in-tab="false">
@@ -110,8 +115,8 @@
         <option value="$PROJECT_DIR$/src/main/java/study/concurrent/ThreadPoolExector/TestThreadPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/study/resource/hashmapresource/HashMapResourceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/study/leetcode/middle/two/num/add/Solution001.java" />
-        <option value="$PROJECT_DIR$/src/main/java/study/leetcode/middle/two/num/add/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/study/leetcode/middle/two/num/add/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/study/leetcode/middle/two/num/add/Solution.java" />
       </list>
     </option>
   </component>
@@ -146,11 +151,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="29" />
-    <option name="y" value="15" />
-    <option name="width" value="1489" />
-    <option name="height" value="978" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="687" />
+    <option name="y" value="57" />
+    <option name="width" value="1383" />
+    <option name="height" value="930" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -386,18 +391,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="Snake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="o.o.Snake" />
-      <module name="Snakes" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="o.o.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="study.leetcode.middle.two.num.add.Solution" />
       <module name="TrueOne" />
@@ -444,6 +438,29 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TrueOne" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.leetcode.middle.two.num.add.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="study.leetcode.middle.two.num.add" />
+      <option name="MAIN_CLASS_NAME" value="study.leetcode.middle.two.num.add.SolutionTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -558,18 +575,18 @@
     <list>
       <item itemvalue="Tomcat Server.TrueOne" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Snake" />
       <item itemvalue="Application.Yard" />
       <item itemvalue="Application.Yard (1)" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="JUnit.SolutionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Yard (1)" />
         <item itemvalue="Application.Yard" />
-        <item itemvalue="Application.Snake" />
       </list>
     </recent_temporary>
   </component>
@@ -597,12 +614,32 @@
       <workItem from="1537595119792" duration="2512000" />
       <workItem from="1539529552736" duration="664000" />
       <workItem from="1539617670542" duration="816000" />
-      <workItem from="1594997825403" duration="4150000" />
+      <workItem from="1594997825403" duration="8604000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SolutionTest - 2020.07.18 at 09h 37m 19s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2020.07.18 at 09h 42m 09s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2020.07.18 at 09h 44m 35s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2020.07.18 at 09h 45m 25s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2020.07.18 at 09h 46m 57s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2020.07.18 at 10h 10m 32s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63545000" />
+    <option name="totallyTimeSpent" value="67999000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,7 +651,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
+    <frame x="-7" y="-7" width="1488" height="803" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -636,10 +673,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32986626" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.09806835" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23625557" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32986626" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18854749" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31005585" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -654,7 +691,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32838038" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.33729568" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.20950966" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -674,7 +711,7 @@
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Find" order="2" visible="true" weight="0.16641901" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18854749" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18854749" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info id="Web" order="6" side_tool="true" />
@@ -682,7 +719,7 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="14" weight="0.2897474" />
+      <window_info anchor="bottom" id="Debug" order="14" weight="0.36701337" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -762,13 +799,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/study/leetcode/middle/two/num/add/Solution.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/study/leetcode/middle/two/num/add/Solution.java</url>
-          <line>73</line>
+          <line>70</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
@@ -783,9 +814,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/o/o/body.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/o/o/right.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1124,12 +1152,31 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/study/leetcode/middle/two/num/add/Solution001.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1404" />
+      </provider>
+    </entry>
+    <entry file="jar://F:/report/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="837" column="30" lean-forward="true" selection-start-line="837" selection-start-column="30" selection-end-line="837" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/study/leetcode/middle/two/num/add/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/study/leetcode/middle/two/num/add/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="280">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
             <element signature="e#2337#2338#0" expanded="true" />
             <element signature="e#2368#2369#0" expanded="true" />
@@ -1138,13 +1185,6 @@
             <element signature="e#2470#2471#0" expanded="true" />
             <element signature="e#2505#2506#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/study/leetcode/middle/two/num/add/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
         </state>
       </provider>
     </entry>

@@ -44,18 +44,6 @@ public class Solution {
         ListNode listNode2Next = l2.next;
         nodeNext = head;
         while (true) {
-            if (listNode1Next == null && listNode2Next == null) {
-                if (high >0){
-                    nodeNext.next = new ListNode(1);
-                }
-                return head;
-            } else if (listNode1Next == null) {
-                buildHeadNode(listNode2Next, nodeNext, high);
-                return head;
-            } else if (listNode2Next == null) {
-                buildHeadNode(listNode1Next, nodeNext, high);
-                return head;
-            }
             if (listNode1Next != null && listNode2Next != null) {
                 twoNumberAddresult = listNode1Next.val + listNode2Next.val + high;
                 twoNumberAddresultBigThen10 = twoNumberAddresult >= 10;
@@ -63,10 +51,19 @@ public class Solution {
                 nodeNext = (nodeNext.next = new ListNode(twoNumberAddresult % 10));
                 listNode1Next = listNode1Next.next;
                 listNode2Next = listNode2Next.next;
-            }else if(listNode1Next == null && listNode2Next == null){
-
+                continue;
+            }  if (listNode1Next == null && listNode2Next == null) {
+                if (high >0){
+                    nodeNext.next = new ListNode(1);
+                }
+                return head;
+            } else if (listNode1Next == null) {
+                buildHeadNode(listNode2Next, nodeNext, high);
+                return head;
+            } else {
+                buildHeadNode(listNode1Next, nodeNext, high);
+                return head;
             }
-
         }
     }
 
@@ -79,12 +76,11 @@ public class Solution {
                 return;
             } else {
                 listNode = listNode.next;
+                nodeNext = (nodeNext.next = new ListNode(0));
                 if (listNode == null) {
                     nodeNext.next = new ListNode(1);
                     return;
                 }
-
-                nodeNext = (nodeNext.next = new ListNode(0));
                 high = 1;
                 val = listNode.val;
             }
