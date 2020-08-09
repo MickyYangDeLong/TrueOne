@@ -1,0 +1,86 @@
+闲话（长话短说）：
+
+今年的开端有些特殊，疫情的缘故对我们的生活造成了很大的影响，这对于一名求职者来说，更是添上了一堵“难墙”，尽管如此，但我们也不能够错失金三银四的机会，该抓住的就要抓住。现在很多互联网公司都已经采取线上面试的方式，所以提前做好准备，投简历、顺利面试，定会拿下心仪的offer，而我也总算取得自己想要的成功，字节跳动成功4面通关。
+
+个人情况介绍：
+
+出生江南小镇，在北京读书，毕业之后就留了下来，学历是211本科，资历各方面都不错，因此在简历上也能够充分体现我自己的优势，年前海投简历之后，现在已经接到不少公司抛来的橄榄枝了，只要面试顺利，基本上是公司任你挑的状态了。
+
+以下主要分享面经和个人学习方法，会包括很多PDF文档，如面试题库（含答案+解析）、学习笔记、实战文档和脑图等等，均可以免费分享，直接（点击我）即可领取~
+
+字节跳动4面核心面试题
+01 Zookeeper 部分
+
+CAP定理
+ZAB协议
+leader选举算法和流程
+02 Redis 部分
+
+Redis的应用场景
+Redis支持的数据类型（必考）
+zset跳表的数据结构（必考）
+Redis的数据过期策略（必考）
+Redis的LRU过期策略的具体实现
+如何解决Redis缓存雪崩，缓存穿透问题
+Redis的持久化机制（必考）
+Redis的管道pipeline
+03 Mysql 部分
+
+事务的基本要素
+事务隔离级别
+如何解决事务的并发问题(脏读，幻读)？
+MVCC多版本并发控制？
+binlog,redolog,undolog都是什么，起什么作用？
+InnoDB的行锁/表锁？
+myisam和innodb的区别，什么时候选择myisam？
+为什么选择B+树作为索引结构？
+索引B+树的叶子节点都可以存哪些东西？
+查询在什么时候不走（预期中的）索引？
+sql如何优化?
+explain是如何解析sql的？
+order by原理
+04 JVM 部分
+
+运行时数据区域（内存模型）
+垃圾回收机制
+垃圾回收算法
+Minor GC和Full GC触发条件
+GC中Stop the world
+各垃圾回收器的特点及区别
+双亲委派模型
+JDBC和双亲委派模型关系
+05 Java 基础部分
+
+HashMap和ConcurrentHashMap区别
+ConcurrentHashMap的数据结构
+高并发HashMap的环是如何产生的？
+volatile作用
+Atomic类如何保证原子性（CAS操作）
+synchronized和Lock的区别
+为什么要使用线程池？
+核心线程池ThreadPoolExecutor的参数
+ThreadPoolExecutor的工作流程
+如何控制线程池线程的优先级
+线程之间如何通信
+Boolean占几个字节
+jdk1.8/jdk1.7都分别新增了哪些特性？
+Exception和Error
+06 Spring 部分
+
+Spring的IOC/AOP的实现
+动态代理的实现方式
+Spring如何解决循环依赖（三级缓存）
+Spring的后置处理器
+Spring的@Transactional如何实现的？
+Spring的事务传播级别
+BeanFactory和ApplicationContext的联系和区别
+07 其他部分
+
+高并发系统的限流如何实现？
+高并发秒杀系统的设计
+负载均衡如何设计？
+Java部分：Java基础，集合，并发，多线程，JVM，设计模式
+数据结构算法：Java算法，数据结构
+开源框架部分：Spring，MyBatis，MVC，netty，tomcat
+分布式部分：架构设计，Redis缓存，Zookeeper，kafka，RabbitMQ，负载均衡等
+微服务部分：SpringBoot，SpringCloud，Dubbo，Docker

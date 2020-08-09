@@ -1,25 +1,24 @@
 package study.algorithm.Tree;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.List;
+import java.util.Comparator;
 
 //红黑树
 public class ReadBlackTree <K,V> {
 
 
-    private static final boolean READ = true;
+    private static final boolean RED = true;
     private static final boolean BLACK = true;
-    private Node<K,V> root = null;
+   /* private Node<K,V extent> root = null;
 
-    /*public Node<K,V> add(K k,V v){
+    public Node<K,V> add(Node node,V v){
+        if (root.getValue(). v)
 
+    }*/
 
-    }
-
-    public Node<K,V> getByKey(K k){
+   /* public Node<K,V> getByKey(K k){
 
     }
 
@@ -50,8 +49,8 @@ public class ReadBlackTree <K,V> {
 
     @Getter
     @Setter
-    class Node<K,V>{//红黑树节点
-        private boolean color;
+    class Node<K,V extends Comparator>{//红黑树节点
+        private boolean color = RED;
         private K key;
         private V value;
         Node<K,V> parent;
